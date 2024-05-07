@@ -46,6 +46,4 @@ module "dns_zone" {
 
   zones = local.zones
   tags  = var.tags
-
-  depends_on = [module.vpc]
 }
