@@ -3,10 +3,10 @@ package main
 import (
 	"testing"
 
-	testimpl "github.com/nexient-llc/tf-aws-module_primitive-dns_zone/tests/testimpl"
+	testimpl "github.com/launchbynttdata/tf-aws-module_primitive-dns_zone/tests/testimpl"
 
-	"github.com/nexient-llc/lcaf-component-terratest-common/lib"
-	"github.com/nexient-llc/lcaf-component-terratest-common/types"
+	"github.com/launchbynttdata/lcaf-component-terratest/lib"
+	"github.com/launchbynttdata/lcaf-component-terratest/types"
 )
 
 const (

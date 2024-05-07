@@ -12,7 +12,7 @@
 
 # This module is used to add metadata tags (resource_name) to all the resources
 module "resource_names" {
-  source = "git::https://github.com/nexient-llc/tf-module-resource_name.git?ref=1.0.0"
+  source = "git::https://github.com/launchbynttdata/tf-launch-module_library-resource_name.git?ref=1.0.0"
 
   for_each = local.resource_names_map
 

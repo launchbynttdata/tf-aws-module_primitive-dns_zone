@@ -1,10 +1,10 @@
-module github.com/nexient-llc/tf-aws-module_primitive-dns_zone
+module github.com/launchbynttdata/tf-aws-module_primitive-dns_zone
 
 go 1.21
 
 require (
 	github.com/gruntwork-io/terratest v0.43.12
-	github.com/nexient-llc/lcaf-component-terratest-common v1.0.3
+	github.com/launchbynttdata/lcaf-component-terratest v1.0.3
 	github.com/stretchr/testify v1.8.4
 )
 
