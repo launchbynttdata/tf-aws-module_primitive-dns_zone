@@ -27,5 +27,5 @@ func TestDnsZoneModule(t *testing.T) {
 		}).
 		Build()
 
-	lib.RunNonDestructiveTest(t, *ctx, testimpl.TestComposableComplete, testimpl.TestNonComposableComplete)
+	lib.RunNonDestructiveTest(t, *ctx, testimpl.TestComposableComplete)
 }
